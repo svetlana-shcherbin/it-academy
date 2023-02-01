@@ -1,5 +1,5 @@
 {
-  "name": "homework4",
+  "name": "it-academy",
   "version": "1.0.0",
   "description": "work with fs-extra",
   "main": "index.js",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/svetlana-shcherbin/it-academy#readme",
   "dependencies": {
     "fs-extra": "^11.1.0"
+  },
+  "devDependencies": {
+    "prettier": "2.8.3"
   }
 }
