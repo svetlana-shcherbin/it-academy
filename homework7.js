@@ -1,11 +1,10 @@
 //1. Эмулировать игру в кубики, 2 человека по очереди бросают кубик, каждый в итоге по 3 раза. У кого сумма трех бросков будет наибольшей - тот выиграл. Если суммы равны то ничья.
-
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min;
+}
 function playGame(score1, score2) {
-  function getRandomInt(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min)) + min;
-  }
   for (let i = 0; i < 3; i++) {
     score1 += getRandomInt(1, 7);
     score2 += getRandomInt(1, 7);
@@ -33,14 +32,14 @@ for (let t = startDate; t <= endDate; t.setMonth(t.getMonth() + 1)) {
 // б. числа разбивки дробные с 2 знаками после запятой (4.55, 5.20, 5.25)
 // макс 10
 
-function getRandomIntInclusive(min, max) {
-  let arr7 = [];
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  let runNumber = Math.floor(Math.random() * (max - min + 1)) + min;
-  let t1 = max - runNumber;
-  arr7.push(t1);
-  // не нашла пока решения
-}
-
-getRandomIntInclusive(2, 9);
+// function getRandomIntInclusive(min, max) {
+//   let arr7 = [];
+//   min = Math.ceil(min);
+//   max = Math.floor(max);
+//   let runNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+//   let t1 = max - runNumber;
+//   arr7.push(t1);
+//   // не нашла пока решения
+// }
+//
+// getRandomIntInclusive(2, 9);
