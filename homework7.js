@@ -4,18 +4,20 @@ function getRandomInt(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min)) + min;
 }
-function playGame(score1, score2) {
-  for (let i = 0; i < 3; i++) {
-    score1 += getRandomInt(1, 7);
-    score2 += getRandomInt(1, 7);
+function playGame(num) {
+  let player1=0;
+  let player2=0;
+  for (let i = 0; i < num; i++) {
+    player1 += getRandomInt(1, 7);
+    player2 += getRandomInt(1, 7);
   }
-  score1 > score2
+  player1 > player2
     ? console.log("Выиграл игрок номер 1")
-    : score2 > score1
+    : player2> player1
     ? console.log("Выиграл игрок номер 2")
     : console.log("Ничья!");
 }
-playGame(0, 0);
+playGame(3);
 
 //2. Подсчитать количество Пятниц 13-ого с 01/01/2000 до сегодня. (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date )
 let startDate = new Date(2000, 0, 13);
