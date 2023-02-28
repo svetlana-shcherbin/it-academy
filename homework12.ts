@@ -77,7 +77,37 @@ export class ObjectManipulator <T>{
       return this.obj;
   }
 }
+// 4. Обеспечьте правильную типизацию для указанных функций.
 
+/**
+ * 2 arguments passed: returns a new array
+ * which is a result of input being mapped using
+ * the specified mapper.
+ *
+ * 1 argument passed: returns a function which accepts
+ * an input and returns a new array which is a result
+ * of input being mapped using original mapper.
+ *
+ * 0 arguments passed: returns itself.
+ *
+ * @param {Function} mapper
+ * @param {Array} input
+ * @return {Array | Function}
+ */
+export function map<I>(mapper: Function, input: I[] | any): I[] | Function {
+  if (arguments.length === 0) {
+    return map;
+  }
+  if (arguments.length === 1) {
+    return function subFunction(subInput: I[] | any): Function | I[] {
+      if (arguments.length === 0) {
+        return subFunction;
+      }
+      return subInput.map(mapper);
+    };
+  }
+  return input.map(mapper);
+}
 /**
  * 2 arguments passed: returns a new array
  * which is a result of input being filtered using
