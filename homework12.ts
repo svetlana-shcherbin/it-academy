@@ -54,64 +54,28 @@ const person4: Person = {
 };
 const persons: object[] = [person1, person2, person3, person4];
 
-// // 3. Напишите анотации типов к этому классу.
-// interface InterfaceObjectManipulator {
-//     constructor(protected obj:object){}
-//
-// }
-// class ObjectManipulator implements InterfaceObjectManipulator{
-//
-//     constructor(protected obj:) {}
-//
-//     public set(key, value) {
-//         return new ObjectManipulator({...this.obj, [key]: value});
-//     }
-//
-//     public get(key) {
-//         return this.obj[key];
-//     }
-//
-//     public delete(key) {
-//         const newObj = {...this.obj};
-//         delete newObj[key];
-//         return new ObjectManipulator(newObj);
-//     }
-//
-//     public getObject() {
-//         return this.obj;
-//     }
-// }
+// 3. Напишите анотации типов к этому классу.
+export class ObjectManipulator <T>{
 
-// 4. Обеспечьте правильную типизацию для указанных функций.
+  constructor(protected obj:T) {}
 
-/**
- * 2 arguments passed: returns a new array
- * which is a result of input being mapped using
- * the specified mapper.
- *
- * 1 argument passed: returns a function which accepts
- * an input and returns a new array which is a result
- * of input being mapped using original mapper.
- *
- * 0 arguments passed: returns itself.
- *
- * @param {Function} mapper
- * @param {Array} input
- * @return {Array | Function}
- */
-export function map<I>(mapper: Function, input: I[] | any): I[] | Function {
-  if (arguments.length === 0) {
-    return map;
+  public set<K extends keyof T, V>(key: K, value: V): object{
+      return new ObjectManipulator({...this.obj, [key]: value});
   }
-  if (arguments.length === 1) {
-    return function subFunction(subInput: I[] | any): Function | I[] {
-      if (arguments.length === 0) {
-        return subFunction;
-      }
-      return subInput.map(mapper);
-    };
+
+  public get<K extends keyof T>(key: K): T[K] {
+      return this.obj[key];
   }
-  return input.map(mapper);
+
+  public delete<K extends keyof T>(key: K ): object {
+      const newObj = {...this.obj};
+      delete newObj[key];
+      return new ObjectManipulator(newObj);
+  }
+
+  public getObject():T {
+      return this.obj;
+  }
 }
 
 /**
