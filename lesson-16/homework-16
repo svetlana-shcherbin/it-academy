@@ -1,0 +1,30 @@
+прислать локаторы xpath и css для следующих элементов:
+сайт https://www.bbc.co.uk/
+Картинка с визуализацией элементов прикреплена к письму.
+1 - элемент с картинкой
+2 - топ нав меню
+- найти только первый видимый элемент
+- последний видимый элемент
+- найти все видимые элементы
+- все невидимые элементы
+- найти нечетные элементы
+3 - дата
+4 - кликабельный элемент поиска
+5 - лого
+6 - новости блоком
+
+////////////////
+
+1. 
+css: div#orb-modules>#page>section:nth-child(3)>div>ul>li:nth-child(1)>div>a
+xpath: //*[@id="page"]/section[3]/div/ul/li[1]/div/a
+2.
+- найти только первый видимый элемент
+css: div#orbit-header>header>div#orb-header>div>nav:nth-of-type(2)>ul>li:nth-child(1)
+xpath: //*[@id="orb-header"]/div/nav[2]/ul/li[1]
+- последний видимый элемент
+css: div#orbit-header>header>div#orb-header>div>nav:nth-of-type(2)>ul>li:nth-child(7)
+xpath: //*[@id="orb-header"]/div/nav[2]/ul/li[7]
+- найти все видимые элементы
+css:
+xpath:
