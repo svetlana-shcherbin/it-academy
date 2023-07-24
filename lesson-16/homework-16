@@ -15,16 +15,82 @@
 
 ////////////////
 
-1. 
-css: div#orb-modules>#page>section:nth-child(3)>div>ul>li:nth-child(1)>div>a
-xpath: //*[@id="page"]/section[3]/div/ul/li[1]/div/a
-2.
+1.  - элемент с картинкой
+
+css: div.media--hero img.image-replace
+
+xpath: //*[contains(@class,"media--hero")]//*[@class="image-replace"]
+
+
+
+2. - топ нав меню
+
 - найти только первый видимый элемент
-css: div#orbit-header>header>div#orb-header>div>nav:nth-of-type(2)>ul>li:nth-child(1)
-xpath: //*[@id="orb-header"]/div/nav[2]/ul/li[1]
+
+css:  nav.orbit-header-links.international ul li:first-child
+
+xpath: //*[@class="orbit-header-links international"]/ul/li[1]
+
+
+
 - последний видимый элемент
-css: div#orbit-header>header>div#orb-header>div>nav:nth-of-type(2)>ul>li:nth-child(7)
-xpath: //*[@id="orb-header"]/div/nav[2]/ul/li[7]
+
+css:  nav.orbit-header-links.international ul li:nth-child(9)
+
+xpath: //*[@class="orbit-header-links international"]/ul/li[9]
+
+
+
 - найти все видимые элементы
-css:
-xpath:
+
+css:nav.orbit-header-links.international ul li:nth-child(n+1):nth-child(-n+9)
+
+xpath: //*[@class="orbit-header-links international"]/ul/li[position() < 10]
+
+
+
+- все невидимые элементы
+
+css:nav.orbit-header-links.international ul li:nth-child(n+9):nth-child(-n+11)
+
+xpath: //*[@class="orbit-header-links international"]/ul/li[position() > 9]
+
+
+
+- найти нечетные элементы
+
+css:nav.orbit-header-links.international ul li:nth-child(odd)
+
+xpath://*[@class="orbit-header-links international"]/ul/li[position() mod 2 = 1]
+
+
+
+3 - дата
+
+css: ?
+
+xpath: //*[@class='module module--header']/h2/child::text()
+
+
+
+4 - кликабельный элемент поиска
+
+css: #orbit-search-button
+
+xpath: //*[@id="orbit-search-button"]
+
+
+
+5 - лого
+
+css:#homepage-link svg
+
+xpath: //*[@id="homepage-link"]/*[name()='svg']
+
+
+
+6 - новости блоком
+
+css: section.module.module--promo ul li:nth-child(n+2):nth-child(-n+5)
+
+xpath: //*[contains (@class, "module--promo")]//ul/li[position()>1]
