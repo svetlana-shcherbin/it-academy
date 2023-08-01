@@ -6,10 +6,10 @@
       "type": "integer"
     },
     "userName": {
-      "type": ["string","null"]
+      "type": ["string"]
     },
     "password": {
-      "type": ["string","null"]
+      "type": ["string"]
     }
   },
   "required": [

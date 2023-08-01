@@ -31,14 +31,14 @@ describe("API POST a new user tests", function () {
     response = await axios.post(
       "https://fakerestapi.azurewebsites.net/api/v1/Users",
       {
+        id: 0,
+        userName: "string",
+        password: "string",
+      },
+      {
         headers: {
           accept: "*/*",
           "Content-Type": "application/json; v=1.0",
-        },
-        data: {
-          id: 0,
-          userName: "string",
-          password: "string",
         },
       }
     );
@@ -81,14 +81,14 @@ describe("API PUT a user", function () {
     response = await axios.put(
       "https://fakerestapi.azurewebsites.net/api/v1/Users/1",
       {
+        id: 0,
+        userName: "string",
+        password: "string",
+      },
+      {
         headers: {
           accept: "*/*",
           "Content-Type": "application/json; v=1.0",
-        },
-        data: {
-          id: 0,
-          userName: "string",
-          password: "string",
         },
       }
     );
