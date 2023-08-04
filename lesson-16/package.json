@@ -1,0 +1,16 @@
+{
+  "name": "lesson-15",
+  "version": "1.0.0",
+  "description": "api testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "jest": "^29.6.2",
+    "jsonschema": "^1.4.1"
+  }
+}
