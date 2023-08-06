@@ -5,17 +5,17 @@ describe("webdriver.io site test", function (){
 
     it('the main page should have title & subtitle', async () =>{
         await browser.url('https://webdriver.io/')
-        expect(await $('.hero__title').isDisplayed(false))
+        expect(await $('.hero__title').isDisplayed(true))
         expect(await $('.hero__subtitle').getText()).to.equal('Next-gen browser and mobile automation test framework for Node.js')
     })
 
-    it('API tab menu should redirect correctly', async () =>{
+    it('after clicking on the API tab should redirect to the /docs/api site', async () =>{
         await browser.url('https://webdriver.io/')
         await $('.navbar__item.navbar__link[href="/docs/api"]').click();
         expect(await browser.url('https://webdriver.io/docs/api'))
     })
 
-    it ('the website should be displayed in German', async() =>{
+    it ('the website should be displayed in German after switching language in the dropdown menu', async() =>{
         await browser.url('https://webdriver.io/')
         await $('.navbar__item.dropdown.dropdown--hoverable.dropdown--right').click();
         await $('a[href="/de/"]').click();
