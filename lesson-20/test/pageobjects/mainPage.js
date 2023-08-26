@@ -4,11 +4,11 @@ class MainPage extends BasePage {
   get title() {
     return $(".hero__title");
   }
-  async checkTitle() {
-    await this.title.isDisplayed();
-  }
   get subtitle() {
     return $(".hero__subtitle");
+  }
+  async isTitleDisplayed() {
+    await this.title.isDisplayed();
   }
 }
 

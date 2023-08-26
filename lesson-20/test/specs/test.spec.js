@@ -9,7 +9,7 @@ const search = require("../pageobjects/components/search");
 describe("webdriver.io site test", function () {
   it("the main page should have title & subtitle", async () => {
     await mainPage.navigate("https://webdriver.io/");
-    await mainPage.checkTitle(true);
+    await mainPage.isTitleDisplayed(true);
     expect(await mainPage.subtitle.getText()).to.equal(
       "Next-gen browser and mobile automation test framework for Node.js"
     );
@@ -24,7 +24,7 @@ describe("webdriver.io site test", function () {
   it("the website should be displayed in German after switching language in the dropdown menu", async () => {
     await mainPage.navigate("https://webdriver.io/");
     await header.clickLanguageSwitcher();
-    await header.selectGermanLanguage();
+    await header.selectLanguage();
     expect(await mainPage.navigate("https://webdriver.io/de/"));
     expect(await mainPage.subtitle.getText()).to.equal(
       "Test-Framework für Browser und mobile Automatisierung der nächsten Generation für Node.js"
