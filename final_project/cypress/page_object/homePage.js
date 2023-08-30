@@ -13,11 +13,5 @@ class HomePage extends BasePage {
   get popularTitle() {
     return cy.get(".d-recommendations__title");
   }
-  openCategory(category) {
-    category.click();
-  }
-  checkTitle(text) {
-    this.popularTitle.contains(text);
-  }
 }
 module.exports = HomePage;
