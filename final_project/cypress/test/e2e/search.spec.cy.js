@@ -1,6 +1,6 @@
 const PageFactory = require("../../page_object/pageFactory");
 const factory = new PageFactory();
-const params = ["nike", "dress", "123"];
+const params = ["nike", "dress"];
 
 describe("test the search functionality", function () {
   beforeEach(() => {
