@@ -13,6 +13,7 @@ class Search extends BasePage {
     doSearch(data) {
         this.searchButton.click()
         this.searchInput.type(data).type('{enter}')
+        cy.wait(3000)
 
     }
 }

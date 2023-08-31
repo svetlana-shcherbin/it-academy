@@ -2,7 +2,10 @@ const BasePage = require("./basePage");
 const HomePage = require("./homePage");
 const Search = require("./components/search");
 const Header = require ("./components/header");
-const Cities =require ("./components/cities")
+const Footer = require ("./components/footer")
+const Cities =require ("./components/cities");
+const ProductPage = require ("./productPage");
+const CartPage = require ("./cartPage")
 
 class PageFactory {
     constructor(page) {
@@ -11,7 +14,10 @@ class PageFactory {
     this.homePage = new HomePage(page);
     this.search = new Search(page);
     this.header = new Header (page);
-    this.cities = new Cities (page)
+    this.cities = new Cities (page);
+    this.footer = new Footer (page);
+    this.productPage = new ProductPage (page)
+    this.cartPage = new CartPage(page)
 
 }}
 

@@ -13,5 +13,8 @@ class Header extends BasePage {
   get KidsCategory() {
     return cy.get('[href="/kids-home/?sitelink=topmenuK"]');
   }
+  get CartIcon() {
+    return cy.get('a[href="/checkout/cart/"]');
+  }
 }
 module.exports = Header;

@@ -1,16 +1,16 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
+    es2022: true,
   },
-  extends: 'airbnb-base',
+  extends: ['airbnb-base', 'prettier'],
   overrides: [
     {
       env: {
         node: true,
       },
       files: [
-        '.eslintrc.{js,cjs}',
+        '.eslintrc.{js,cjs,json}',
       ],
       parserOptions: {
         sourceType: 'script',
@@ -22,5 +22,6 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    
   },
 };
