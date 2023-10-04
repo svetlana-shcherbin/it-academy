@@ -1,0 +1,2256 @@
+
+{
+    "type": "array",
+    "items": [
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "aoid": {
+            "type": "string"
+          },
+          "city": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "level_name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "level_name",
+              "role",
+              "title"
+            ]
+          },
+          "district": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          },
+          "region": {
+            "type": "object",
+            "properties": {
+              "aoid": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "aoid",
+              "role",
+              "title"
+            ]
+          }
+        },
+        "required": [
+          "aoid",
+          "city",
+          "district",
+          "region"
+        ]
+      }
+    ]
+  }
